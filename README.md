@@ -1,6 +1,6 @@
 # Clone da Home do Website Hashtag Treinamentos
 
-Bem-vindo ao repositório do clone da página inicial do website do curso Hashtag Treinamentos! Este projeto tem como objetivo reproduzir a interface da home page do site da Hashtag Treinamentos, utilizando tecnologias modernas de desenvolvimento web.
+Bem-vindo ao repositório do clone da página inicial do website do curso Hashtag Treinamentos! Este projeto tem como objetivo reproduzir a interface da home page do site da Hashtag Treinamentos de forma estática, utilizando tecnologias modernas de desenvolvimento web.
 
 https://www.hashtagtreinamentos.com/
 
