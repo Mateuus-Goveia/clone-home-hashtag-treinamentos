@@ -24,13 +24,13 @@ Este projeto é uma réplica da página inicial do website Hashtag Treinamentos.
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/clone-home-hashtag-treinamentos.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd clone-home-hashtag-treinamentos
    ```
 
 3. Abra o arquivo `index.html` no seu navegador preferido.
