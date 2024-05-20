@@ -108,3 +108,54 @@ body {
   height: 21.808rem;
   width: 35.7rem;
 }
+
+.topo-diferenciais {
+  display: inline-block;
+  background-color: #1973a2;
+  color: #fff;
+  padding: 6.5rem 7rem;
+  border-radius: 4rem 4rem 0rem 0rem;
+}
+
+.topo-diferenciais .titulo-home-diferenciais {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.topo-diferenciais p {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.imagens-diferencias-home {
+  height: 10rem;
+  width: 10rem;
+}
+
+.subtilo-diferenciais {
+  color: #005e88;
+  font-size: 2.4rem;
+}
+
+.diferenciais p {
+  font-size: 1.6rem;
+}
+
+.titulo-empresas-diferenciais {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.titulo-empresas-diferenciais a:link,
+.titulo-empresas-diferenciais a:visited {
+  color: #005e88;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo-empresas-diferenciais img {
+  width: 20rem;
+  height: 10rem;
+  display: inline-block;
+  padding: 2rem;
+}
