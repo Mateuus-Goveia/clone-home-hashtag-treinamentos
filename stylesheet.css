@@ -14,8 +14,18 @@ body {
   color: #404040;
 }
 
-span {
+span,
+strong {
   font-weight: 600;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 /* Cabeçalho */
@@ -192,4 +202,14 @@ span {
   text-decoration: none;
   font-weight: 700;
   color: #fff;
+}
+
+/* na midia */
+
+.na-midia img {
+  display: inline;
+}
+
+.na-midia h2 {
+  display: inline;
 }
