@@ -1,0 +1,288 @@
+/* Geral */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #404040;
+}
+
+span,
+strong {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+/* Cabeçalho */
+
+.item-lista-cabecalho a:link,
+.item-lista-cabecalho a:visited {
+  color: #112e61;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.item-lista-cabecalho a:hover,
+.item-lista-cabecalho a:active {
+  color: #ff6900;
+}
+
+/* hero */
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.hero button {
+  background-image: linear-gradient(#ff645e, #ff9253);
+  border-radius: 30px;
+  box-shadow: 3, 3, 8, -2, rgba(0, 0, 0, 3);
+  border-right: 4px solid #993c38;
+  border-bottom: 4px solid #993c38;
+}
+
+.hero button a {
+  padding: 0.9rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* gratuitos */
+
+.gratuitos h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.gratuitos span {
+  color: #7a40be;
+  font-weight: 600;
+}
+
+.gratuitos h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  display: inline-block;
+  color: #fff;
+  background-color: #a755e4;
+  padding: 0.8rem 2rem;
+  border-radius: 0.8rem;
+}
+
+.icones-gratuitos-treinamentos img,
+.icones-gratuitos-programacao img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.redes-sociais-treinamentos-gratuitos img,
+.redes-sociais-programacao-gratuitos img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.7rem;
+}
+.redes-sociais-programacao-gratuitos a:link,
+.redes-sociais-treinamentos-gratuitos a:link,
+.redes-sociais-programacao-gratuitos a:visited,
+.redes-sociais-treinamentos-gratuitos a:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #404040;
+  font-weight: 400;
+}
+
+.redes-sociais-programacao-gratuitos a:hover,
+.redes-sociais-treinamentos-gratuitos a:hover,
+.redes-sociais-programacao-gratuitos a:active,
+.redes-sociais-treinamentos-gratuitos a:active {
+  text-decoration: underline;
+  color: #0000ff;
+  font-weight: 400;
+}
+
+.modelo-gratuitos {
+  height: 21.808rem;
+  width: 35.7rem;
+}
+
+/* diferenciais */
+
+.topo-diferenciais {
+  display: inline-block;
+  background-color: #1973a2;
+  color: #fff;
+  padding: 6.5rem 7rem;
+  border-radius: 4rem 4rem 0rem 0rem;
+}
+
+.topo-diferenciais .titulo-home-diferenciais {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.topo-diferenciais p {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.imagens-diferencias-home {
+  height: 10rem;
+  width: 10rem;
+}
+
+.subtilo-diferenciais {
+  color: #005e88;
+  font-size: 2.4rem;
+}
+
+.diferenciais p {
+  font-size: 1.6rem;
+}
+
+.titulo-empresas-diferenciais {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.titulo-empresas-diferenciais a:link,
+.titulo-empresas-diferenciais a:visited {
+  color: #005e88;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo-empresas-diferenciais img {
+  width: 20rem;
+  height: 10rem;
+  display: inline-block;
+  padding: 2rem;
+}
+
+/* O que falam */
+
+.oque-falam h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.oque-falam button {
+  background-color: #007aff;
+  border-radius: 2rem;
+  padding: 0.9rem 4rem;
+}
+
+.oque-falam a:link,
+.oque-falam a:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* na midia */
+
+.na-midia img {
+  display: inline;
+}
+
+.na-midia h2 {
+  display: inline;
+}
+
+/* Seção Blog */
+
+.blog img {
+  height: 26.4rem;
+  width: 47rem;
+}
+
+.blog h3 a:link,
+.blog h3 a:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #404040;
+}
+
+.postado-blog a:link,
+.postado-blog a:visited {
+  color: #f7a70c;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção como ajudar */
+
+.como-ajudar p {
+  font-size: 1.9rem;
+}
+
+.como-ajudar a:link,
+.como-ajudar a:visited {
+  color: #008ff7;
+  font-weight: 600;
+}
+
+.como-ajudar strong {
+  font-weight: 700;
+}
+
+/* Rodapé */
+
+footer h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+footer h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+footer h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.icone-texto-rodape {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.contato-rodape a:link,
+.contato-rodape a:visited {
+  font-size: 1.6rem;
+  color: #1a77a4;
+  text-decoration: underline;
+}
+
+.contato-rodape a:hover,
+.contato-rodape a:active {
+  font-size: 1.6rem;
+  color: #f60;
+  text-decoration: none;
+}
