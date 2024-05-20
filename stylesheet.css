@@ -250,3 +250,39 @@ p {
 .como-ajudar strong {
   font-weight: 700;
 }
+
+/* Rodapé */
+
+footer h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+footer h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+footer h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.icone-texto-rodape {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.contato-rodape a:link,
+.contato-rodape a:visited {
+  font-size: 1.6rem;
+  color: #1a77a4;
+  text-decoration: underline;
+}
+
+.contato-rodape a:hover,
+.contato-rodape a:active {
+  font-size: 1.6rem;
+  color: #f60;
+  text-decoration: none;
+}
