@@ -213,3 +213,24 @@ p {
 .na-midia h2 {
   display: inline;
 }
+
+/* Seção Blog */
+
+.blog img {
+  height: 26.4rem;
+  width: 47rem;
+}
+
+.blog h3 a:link,
+.blog h3 a:visited {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #404040;
+}
+
+.postado-blog a:link,
+.postado-blog a:visited {
+  color: #f7a70c;
+  text-decoration: none;
+  font-weight: 600;
+}
