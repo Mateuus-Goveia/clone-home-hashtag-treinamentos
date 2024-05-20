@@ -234,3 +234,19 @@ p {
   text-decoration: none;
   font-weight: 600;
 }
+
+/* Seção como ajudar */
+
+.como-ajudar p {
+  font-size: 1.9rem;
+}
+
+.como-ajudar a:link,
+.como-ajudar a:visited {
+  color: #008ff7;
+  font-weight: 600;
+}
+
+.como-ajudar strong {
+  font-weight: 700;
+}
