@@ -1,7 +1,17 @@
+/* Sistema de Tamanhos - https://typescale.com/ 
+
+Fontes - Minor Third - 1.200 - Em PX
+4.4 - 5.4 - 6.4 - 7.7 - 9.2 - 11.1 - 13.3 - 16 - 19.2 - 23 - 27.6 - 33.2 - 39.8 - 47.8 - 57.3 - 68.8 - 82.6
+
+Espaçamentos - Major Third - 1.250 - Em PX
+2.1 - 2.7 - 3.3 - 4.2 - 5.2 - 6.5 - 8.2 - 10.2 - 12.8 - 16 - 20 - 25 - 31.2 - 39 - 48.8 - 61 - 76.3 - 95.4 - 119.2
+
+*/
+
 /* Geral */
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,9 +22,10 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   color: #404040;
+  line-height: 1.4;
+  font-size: 1.6rem;
 }
 
-span,
 strong {
   font-weight: 600;
 }
@@ -24,14 +35,56 @@ h2 {
   font-weight: 400;
 }
 
-p {
-  font-size: 1.6rem;
+.secao {
+  padding: 7.36rem 2rem;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.botao {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 3rem;
+  margin: 2rem 0;
+  padding: 0.52rem 4.88rem;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0.3rem 0.3rem 0.8rem -0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.iframe-video {
+  aspect-ratio: 16/9;
+  width: 42rem;
+  border-radius: 2.5rem;
+  display: none;
 }
 
 /* Cabeçalho */
 
-.item-lista-cabecalho a:link,
-.item-lista-cabecalho a:visited {
+/* Temporario */
+nav {
+  display: none;
+}
+
+header {
+  padding: 1.28rem 2.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
+
+nav ul {
+  list-style: none;
+}
+
+header a:link,
+header a:visited {
   color: #112e61;
   font-size: 1.4rem;
   text-decoration: none;
@@ -39,37 +92,47 @@ p {
   font-weight: 600;
 }
 
-.item-lista-cabecalho a:hover,
-.item-lista-cabecalho a:active {
-  color: #ff6900;
+header a:hover,
+header a:active {
+  color: #f60;
 }
 
-/* hero */
+/* Triangulo Invertido */
+.filhos::after {
+  content: "\2bc6";
+}
 
-.hero h1 {
+/* Seção hero */
+
+.secao-hero {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao-hero h1 {
   font-size: 3.5rem;
   font-weight: 600;
+  margin: 0 0 2rem 0;
 }
 
-.hero p {
+.secao-hero p {
   font-size: 1.9rem;
   font-weight: 400;
+  margin: 0 0 1.6rem 0;
 }
 
-.hero button {
-  background-image: linear-gradient(#ff645e, #ff9253);
-  border-radius: 30px;
-  box-shadow: 3, 3, 8, -2, rgba(0, 0, 0, 3);
+.botao-hero {
+  background-image: linear-gradient(180deg, #ff645e, #ff9253);
   border-right: 4px solid #993c38;
   border-bottom: 4px solid #993c38;
 }
 
-.hero button a {
-  padding: 0.9rem;
-  font-size: 2.4rem;
-  font-weight: 700;
-  text-decoration: none;
-  color: #fff;
+.botao-hero:hover {
+  background-image: linear-gradient(#fff, #fff);
+  color: #993c38;
+  border: none;
 }
 
 /* gratuitos */
