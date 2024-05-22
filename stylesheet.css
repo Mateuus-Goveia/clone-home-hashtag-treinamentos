@@ -137,9 +137,11 @@ header a:active {
 
 /* gratuitos */
 
-.gratuitos h2 {
-  font-size: 3.5rem;
-  font-weight: 400;
+.gratuitos {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-02.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .gratuitos span {
@@ -150,11 +152,11 @@ header a:active {
 .gratuitos h3 {
   font-size: 2.3rem;
   font-weight: 700;
-  display: inline-block;
   color: #fff;
   background-color: #a755e4;
   padding: 0.8rem 2rem;
   border-radius: 0.8rem;
+  display: inline-block;
 }
 
 .icones-gratuitos-treinamentos img,
