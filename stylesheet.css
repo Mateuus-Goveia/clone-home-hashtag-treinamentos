@@ -84,6 +84,7 @@ nav {
 }
 
 header {
+  z-index: 9999;
   padding: 1.28rem 2.5rem;
   position: sticky;
   top: 0;
@@ -174,10 +175,10 @@ header a:active {
   padding: 0.42rem 1.6rem;
   border-radius: 1rem;
   transform: rotate(-3deg) translate(-50%, -50%);
-  display: inline-block;
   position: absolute;
   top: 0;
   left: 50%;
+  display: inline-block;
 }
 
 .secao-gratuitos-colunas {
@@ -193,7 +194,7 @@ header a:active {
   width: 4.5rem;
   padding: 0.82rem;
   background-color: #eeeeee;
-  box-shadow: inset 0px 0.4rem 0.1rem rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 0.2rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 50%;
   display: inline-block;
 }
@@ -228,23 +229,47 @@ header a:active {
 }
 
 /* diferenciais */
+.diferenciais {
+  background-color: #f4f5f7;
+}
+
+.container-diferenciais {
+  background-color: #fff;
+  /* padding: 4.88rem 3.12rem; */
+  border-radius: 5rem;
+}
+
+.diferenciais h2 {
+  font-size: 3.32rem;
+  font-weight: 400;
+}
 
 .topo-diferenciais {
   display: inline-block;
-  background-color: #1973a2;
+  background-color: #005e88;
+  background-image: linear-gradient(
+    225deg,
+    rgba(89, 136, 217, 0.28),
+    rgba(92, 225, 250, 0.28)
+  );
   color: #fff;
-  padding: 6.5rem 7rem;
+  padding: 6.2rem;
   border-radius: 4rem 4rem 0rem 0rem;
 }
 
-.topo-diferenciais .titulo-home-diferenciais {
-  font-size: 3.5rem;
-  font-weight: 400;
+.caixa-titulo-diferenciais {
+  border-left: solid 0.5rem #ffb20f;
+  padding: 0.52rem 0 0.52rem 2rem;
 }
 
 .topo-diferenciais p {
   font-size: 1.92rem;
-  font-weight: 400;
+}
+
+.caixa-restante-diferenciais {
+  padding: 4.88rem;
+  background-color: #f4f5f7;
+  box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.15);
 }
 
 .imagens-diferencias-home {
@@ -252,32 +277,56 @@ header a:active {
   width: 10rem;
 }
 
+.coluna-diferenciais {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
+.icones-diferencias-home {
+  width: 10rem;
+  height: 10rem;
+  padding: 1.28rem;
+  border-radius: 1rem;
+  background-color: #ffaf00;
+  box-shadow: inset 0 1px 5px 0 rgba(128, 88, 0, 0.5);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.icones-diferencias-home img {
+  width: 100%;
+  height: 100%;
+}
+
 .subtilo-diferenciais {
   color: #005e88;
   font-size: 2.4rem;
 }
 
-.diferenciais p {
-  font-size: 1.6rem;
-}
-
-.titulo-empresas-diferenciais {
-  font-size: 3.5rem;
-  font-weight: 400;
-}
-
-.titulo-empresas-diferenciais a:link,
-.titulo-empresas-diferenciais a:visited {
+.Empresas-secao-diferenciais a:link,
+.Empresas-secao-diferenciais a:visited {
   color: #005e88;
   text-decoration: none;
   font-weight: 600;
 }
 
 .logo-empresas-diferenciais img {
-  width: 20rem;
-  height: 10rem;
-  display: inline-block;
-  padding: 2rem;
+  filter: grayscale(100%);
+  height: 4rem;
+}
+
+.opacidade-75 {
+  opacity: 75%;
+}
+
+.opacidade-50 {
+  opacity: 50%;
 }
 
 /* O que falam */
