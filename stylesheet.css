@@ -33,8 +33,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.76rem;
-  line-height: 1.1;
+  font-size: 3.32rem;
+  line-height: 1;
   font-weight: 400;
 }
 
@@ -44,7 +44,8 @@ h3 {
   font-weight: 600;
 }
 
-strong {
+strong,
+span {
   font-weight: 600;
 }
 
@@ -67,6 +68,8 @@ strong {
   display: inline-block;
   text-decoration: none;
   box-shadow: 0.3rem 0.3rem 0.8rem -0.2rem rgba(0, 0, 0, 0.3);
+  border-right: 4px solid #993c38;
+  border-bottom: 4px solid #993c38;
 }
 
 .iframe-video {
@@ -139,8 +142,8 @@ header a:active {
 
 .botao-hero {
   background-image: linear-gradient(180deg, #ff645e, #ff9253);
-  border-right: 4px solid #993c38;
-  border-bottom: 4px solid #993c38;
+  border-right-color: #993c38;
+  border-bottom-color: #993c38;
 }
 
 .botao-hero:hover {
@@ -331,23 +334,94 @@ header a:active {
 
 /* O que falam */
 
+.oque-falam {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-04.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .oque-falam h2 {
-  font-size: 3.5rem;
-  font-weight: 400;
-}
-
-.oque-falam button {
-  background-color: #007aff;
-  border-radius: 2rem;
-  padding: 0.9rem 4rem;
-}
-
-.oque-falam a:link,
-.oque-falam a:visited {
-  font-size: 2.4rem;
-  text-decoration: none;
-  font-weight: 700;
   color: #fff;
+}
+
+.elementos-secao-oque-falam {
+  position: relative;
+}
+
+.oque-falam-seta {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.seta--esquerda {
+  left: 0;
+  transform: translate(-150%, -50%);
+}
+
+.seta--direita {
+  right: 0;
+  transform: translate(160%, -50%);
+}
+
+.videos-oque-falam-1 {
+  background-image: url(http://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+
+.videos-oque-falam-2 {
+  background-image: url(http://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+
+.videos-oque-falam-3 {
+  background-image: url(http://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.depoimentos-oque-falam {
+  width: 33%;
+  aspect-ratio: 16/9;
+  position: relative;
+  background-position: 50%;
+  border-radius: 2.5rem;
+  background-size: cover;
+  background-color: #7489af;
+  background-blend-mode: multiply;
+  display: inline-block;
+}
+
+.seta-player {
+  width: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.itens-de-navegação {
+  background-color: #86a8bc;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.itens-de-navegação.ativa {
+  background-color: #005e88;
+}
+
+.botao-oque-falam {
+  background-image: linear-gradient(180deg, #196c9f, #1a80a7);
+  border-right-color: #14577f;
+  border-bottom-color: #14577f;
+}
+
+.botao-oque-falam:hover {
+  background-image: none;
+  background-color: #1a80a7;
+  border-right-color: #1a80a7;
+  border-bottom-color: #1a80a7;
 }
 
 /* na midia */
