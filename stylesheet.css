@@ -597,20 +597,25 @@ footer h4 {
   font-weight: 400;
 }
 
+.rodape-logo-hashtag {
+  height: 8rem;
+  width: 18rem;
+}
+
 .icone-texto-rodape {
   height: 2.4rem;
   width: 2.4rem;
 }
 
-.contato-rodape a:link,
-.contato-rodape a:visited {
+.links-rodape a:link,
+.links-rodape a:visited {
   font-size: 1.6rem;
   color: #1a77a4;
   text-decoration: underline;
 }
 
-.contato-rodape a:hover,
-.contato-rodape a:active {
+.links-rodape a:hover,
+.links-rodape a:active {
   font-size: 1.6rem;
   color: #f60;
   text-decoration: none;
@@ -636,4 +641,24 @@ footer h4 {
   background-color: #1a80a7;
   border-right-color: #1a80a7;
   border-bottom-color: #1a80a7;
+}
+
+.link-redes-sociais-rodape {
+  color: transparent;
+}
+
+.link-redes-sociais-rodape svg {
+  opacity: 75%;
+}
+
+.link-redes-sociais-rodape svg:hover {
+  fill: #f60;
+  stroke: #f60;
+}
+
+.botao-wpp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 8.5rem;
 }
