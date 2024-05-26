@@ -50,6 +50,23 @@ span {
   font-weight: 600;
 }
 
+input {
+  font-family: inherit;
+  padding: 1.02rem;
+  border-radius: 0.8rem;
+  border: 0;
+  box-shadow: inset 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+input::placeholder {
+  color: #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
 .secao {
   padding: 7.36rem 2rem;
 }
@@ -69,6 +86,7 @@ span {
   display: inline-block;
   text-decoration: none;
   box-shadow: 0.3rem 0.3rem 0.8rem -0.2rem rgba(0, 0, 0, 0.3);
+  border: 0;
   border-right: 4px solid #993c38;
   border-bottom: 4px solid #993c38;
 }
@@ -494,6 +512,36 @@ header a:active {
 
 /* Seção como ajudar */
 
+.como-ajudar {
+  padding: 0;
+}
+
+.secao-lista-como-ajudar {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-07.png);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.caixa-como-ajudar {
+  background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
+  color: #fff;
+  box-shadow: 0 0 1.2rem 0.8rem rgba(0, 0, 0, 0.2);
+  padding: 0.7rem 2.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  width: max-content;
+}
+
+.lista-como-ajudar {
+  display: block;
+  background-color: #fff;
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
 .como-ajudar p {
   font-size: 1.92rem;
 }
@@ -506,6 +554,30 @@ header a:active {
 
 .como-ajudar strong {
   font-weight: 700;
+}
+
+/* Mini Curso */
+
+.secao-mini-curso {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-banner-08_1.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.botao-mini-curso {
+  background-color: #ffba29;
+  border-color: #664a10;
+  font-size: 2.76rem;
+}
+
+.botao-mini-curso:hover {
+  border-color: #ffba29;
+}
+
+.secao-mini-curso label {
+  font-size: 1.92rem;
 }
 
 /* Rodapé */
