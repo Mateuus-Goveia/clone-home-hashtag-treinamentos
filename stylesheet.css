@@ -170,9 +170,7 @@ header a:active {
 }
 
 .botao-hero:hover {
-  background-image: linear-gradient(#fff, #fff);
-  color: #993c38;
-  border: none;
+  border: solid 0.2rem #ff9253;
 }
 
 /* gratuitos */
@@ -441,10 +439,7 @@ header a:active {
 }
 
 .botao-oque-falam:hover {
-  background-image: none;
-  background-color: #1a80a7;
-  border-right-color: #1a80a7;
-  border-bottom-color: #1a80a7;
+  border: solid 0.2rem #1a80a7;
 }
 
 /* na midia */
@@ -577,7 +572,7 @@ header a:active {
 }
 
 .botao-mini-curso:hover {
-  border-color: #ffba29;
+  border: solid 0.2rem #ffba29;
 }
 
 /* Rodapé */
@@ -637,10 +632,7 @@ footer h4 {
 }
 
 .botao-newsletter:hover {
-  background-image: none;
-  background-color: #1a80a7;
-  border-right-color: #1a80a7;
-  border-bottom-color: #1a80a7;
+  border: solid 0.2rem #1a80a7;
 }
 
 .link-redes-sociais-rodape {
