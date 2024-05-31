@@ -29,8 +29,9 @@ body {
 
 h1 {
   font-size: 3.32rem;
-  line-height: 1.2;
+  line-height: 1;
   font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 h2 {
@@ -213,6 +214,7 @@ header a:active {
 .secao-hero p {
   font-size: 1.92rem;
   font-weight: 400;
+  letter-spacing: 0.1rem;
 }
 
 .botao-hero {
@@ -234,6 +236,29 @@ header a:active {
   background-repeat: no-repeat;
 }
 
+.container-gratuitos {
+  display: flex;
+  align-items: center;
+}
+
+.coluna-secao-gratuito {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.titulo-secao-gratuito {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.conteiner-colunas-gratuitos {
+  display: flex;
+  gap: 2rem;
+}
+
 .gratuitos span {
   color: #7a40be;
   font-weight: 600;
@@ -242,6 +267,9 @@ header a:active {
 .modelo-gratuitos {
   height: 21.808rem;
   width: 35.7rem;
+  position: relative;
+  left: 2rem;
+  z-index: 1;
 }
 
 .caixa-secao-gratuitos-h3 {
@@ -259,7 +287,9 @@ header a:active {
 
 .secao-gratuitos-colunas {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
   box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
   padding: 2rem;
@@ -275,16 +305,29 @@ header a:active {
   display: inline-block;
 }
 
+.icones-home-secao-gratuitos {
+  display: flex;
+  gap: 1rem;
+}
+
 .icones-home-secao-gratuitos img {
   width: 100%;
   height: 100%;
 }
 
+.coluna-redes-sociais-secao-gratuitos {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
 .caixa-redes-sociais-gratuitos:link,
 .caixa-redes-sociais-gratuitos:visited {
+  display: flex;
+  align-items: center;
+  padding: 0.27rem 4rem;
+  gap: 1rem;
   font-size: 1.92rem;
-  margin: 0.65rem 0;
-  padding: 0.65rem 3.12rem;
   border-radius: 4rem;
   color: inherit;
   background-color: #eeeeee;
@@ -301,7 +344,6 @@ header a:active {
 .caixa-redes-sociais-gratuitos img {
   width: 1.8rem;
   height: 1.8rem;
-  margin-right: 0.7rem;
 }
 
 /* diferenciais */
@@ -311,7 +353,6 @@ header a:active {
 
 .container-diferenciais {
   background-color: #fff;
-  /* padding: 4.88rem 3.12rem; */
   border-radius: 5rem;
 }
 
@@ -321,7 +362,9 @@ header a:active {
 }
 
 .topo-diferenciais {
-  display: inline-block;
+  display: flex;
+  gap: 7.53rem;
+  align-items: center;
   background-color: #005e88;
   background-image: linear-gradient(
     225deg,
@@ -330,20 +373,25 @@ header a:active {
   );
   color: #fff;
   padding: 6.2rem;
+  padding-bottom: 12.5rem;
   border-radius: 4rem 4rem 0rem 0rem;
 }
 
 .caixa-titulo-diferenciais {
   border-left: solid 0.5rem #ffb20f;
   padding: 0.52rem 0 0.52rem 2rem;
+  flex: 6;
 }
 
 .topo-diferenciais p {
+  margin-top: 0.52rem;
   font-size: 1.92rem;
+  flex: 5;
+  text-align: right;
 }
 
 .caixa-restante-diferenciais {
-  padding: 4.88rem;
+  padding: 4.88rem 2.5rem;
   background-color: #f4f5f7;
   box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.15);
 }
@@ -353,9 +401,40 @@ header a:active {
   width: 10rem;
 }
 
+.colunas-diferenciais {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-top: -10rem;
+}
+
+.texto-coluna-diferenciais {
+  display: flex;
+  flex-flow: column;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+.icone-h3-diferenciais {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 4.88rem;
+}
+
+.caixa-colunas-e-empresas {
+  display: flex;
+  flex-flow: column;
+  gap: 6rem;
+}
+
 .coluna-diferenciais {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2.5rem;
+  width: 33%;
   background-color: #fff;
   box-shadow: 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
@@ -383,6 +462,14 @@ header a:active {
 .subtilo-diferenciais {
   color: #005e88;
   font-size: 2.4rem;
+  text-align: center;
+}
+
+.Empresas-secao-diferenciais {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 3.12rem;
 }
 
 .Empresas-secao-diferenciais a:link,
@@ -390,6 +477,13 @@ header a:active {
   color: #005e88;
   text-decoration: none;
   font-weight: 600;
+}
+
+.logo-empresas-diferenciais {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .logo-empresas-diferenciais img {
