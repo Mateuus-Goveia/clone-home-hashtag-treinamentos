@@ -653,9 +653,14 @@ header a:active {
 
 /* Seção Blog */
 .container-blog {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 2rem;
   box-shadow: inset 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
   border-radius: 4rem;
-  padding: 9.54rem 3.9rem;
+  padding: 10.2rem 2.5rem 6.5rem 2.5rem;
+  background-color: #f9f9f9;
   position: relative;
 }
 
@@ -667,24 +672,10 @@ header a:active {
   border-radius: 1rem;
   transform: rotate(-3deg) translate(-50%, -50%);
   position: absolute;
-  top: 0;
+  top: -1.3rem;
   left: 50%;
   display: inline-block;
   width: max-content;
-}
-
-.colunas-blogs {
-  position: relative;
-  display: inline-block;
-  background-color: #fff;
-  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
-  border-radius: 2.5rem;
-  padding: 2rem;
-}
-
-.blog img {
-  height: 26.4rem;
-  width: 47rem;
 }
 
 .blog h3 a:link,
@@ -692,6 +683,27 @@ header a:active {
   font-size: 2.4rem;
   text-decoration: none;
   color: #404040;
+}
+
+.caixa-post-blog {
+  display: flex;
+  flex-flow: column;
+  gap: 0.65rem;
+  flex: 1 1 40%;
+  background-color: #fff;
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
+.div-blog-postadoem {
+  display: flex;
+  flex-flow: column;
+  gap: 0.21rem;
+}
+
+.caixa-post-blog img {
+  width: 100%;
 }
 
 .postado-blog a:link,
