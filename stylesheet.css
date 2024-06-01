@@ -96,6 +96,12 @@ label {
   border-bottom: 4px solid #993c38;
 }
 
+.formulario-flex {
+  display: flex;
+  flex-flow: column;
+  gap: 0.52rem;
+}
+
 /* Cabeçalho */
 
 header {
@@ -794,6 +800,19 @@ header a:active {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+}
+
+.container-mini-curso {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 3.9rem;
+}
+
+.formulario-mini-curso {
+  display: flex;
+  align-items: end;
+  gap: 7.63rem;
 }
 
 .botao-mini-curso {
