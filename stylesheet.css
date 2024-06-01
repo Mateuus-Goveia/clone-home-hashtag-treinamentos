@@ -727,7 +727,7 @@ header a:active {
   position: relative;
 }
 
-.caixa-como-ajudar {
+.caixa-titulo-como-ajudar {
   background-image: linear-gradient(90deg, #14a1d5, #1a8ad4);
   color: #fff;
   box-shadow: 0 0 1.2rem 0.8rem rgba(0, 0, 0, 0.2);
