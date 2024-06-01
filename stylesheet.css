@@ -626,19 +626,29 @@ header a:active {
 
 /* na midia */
 .secao-na-midia {
-  margin-bottom: 4rem;
+  padding: 3.9rem 0;
   background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png);
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.container-na-midia {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.12rem;
+}
+
 .titulo-na-midia {
-  display: inline;
+  display: flex;
+  align-items: center;
+  gap: 1.28rem;
 }
 
 .empresas-na-midia {
-  display: inline;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 /* Seção Blog */
