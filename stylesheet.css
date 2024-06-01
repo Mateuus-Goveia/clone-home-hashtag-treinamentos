@@ -508,12 +508,37 @@ header a:active {
   background-repeat: no-repeat;
 }
 
-.oque-falam h2 {
+.container-oque-falam {
+  display: flex;
+  flex-flow: column;
+  gap: 3.12rem;
+  align-items: center;
+}
+
+.titulo-secao-oque-falam {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.titulo-secao-oque-falam h2 {
   color: #fff;
 }
 
 .elementos-secao-oque-falam {
   position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+.oque-falam-carrocel {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-self: stretch;
+  gap: 2rem;
 }
 
 .oque-falam-seta {
@@ -530,6 +555,12 @@ header a:active {
 .seta--direita {
   right: 0;
   transform: translate(160%, -50%);
+}
+
+.videos-oque-falam {
+  display: flex;
+  gap: 2rem;
+  align-self: stretch;
 }
 
 .videos-oque-falam-1 {
@@ -563,6 +594,11 @@ header a:active {
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+
+.navegacao-oque-falam {
+  display: flex;
+  gap: 1.28rem;
 }
 
 .itens-de-navegação {
