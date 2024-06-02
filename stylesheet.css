@@ -838,6 +838,20 @@ header a:active {
 
 /* Rodapé */
 
+.container-rodape {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.rodape {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 5rem;
+}
+
 footer h2 {
   font-size: 2.2rem;
   font-weight: 600;
@@ -853,14 +867,57 @@ footer h4 {
   font-weight: 400;
 }
 
+.coluna-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  flex: 2;
+}
+
+.h2-conteudo-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 1.28rem;
+}
+
+.h3-conteudo-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 1.02rem;
+}
+
+.h4-conteudo-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 0.82rem;
+}
+
+.conteudo-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 0.52rem;
+}
+
+.svg-links-rodape {
+  display: flex;
+  gap: 1.02rem;
+  align-items: center;
+}
+
 .rodape-logo-hashtag {
-  height: 8rem;
   width: 18rem;
+  flex: 0.5;
+  margin-top: 2rem;
 }
 
 .icone-texto-rodape {
   height: 2.4rem;
   width: 2.4rem;
+}
+
+.links-rodape {
+  display: flex;
+  gap: 2rem;
 }
 
 .links-rodape a:link,
@@ -877,12 +934,23 @@ footer h4 {
   text-decoration: none;
 }
 
+.form-rodape {
+  display: flex;
+  flex-flow: column;
+  gap: 2.5rem;
+  align-items: center;
+}
+
 .newsletter-rodape {
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2.5rem;
   background-color: #fff;
   box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 2.5rem;
   padding: 2rem;
+  flex: 1;
 }
 
 .botao-newsletter {
